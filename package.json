@@ -1,4 +1,13 @@
 {
+  "name": "vite-project",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "preview": "vite preview"
+  },
   "dependencies": {
     "jquery": "^3.7.1",
     "three": "^0.176.0"
