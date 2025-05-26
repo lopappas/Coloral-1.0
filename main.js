@@ -631,8 +631,8 @@ music_icon.addEventListener("mouseout", function() {
 //Audio handler
 let playing_audio = false;
 let first_audio_click = false;
-const score_sfx = new Audio('/audio/23. OK_Button_Variation.wav');
-const death_sfx = new Audio('/audio/Reject Sound.wav');
+const score_sfx = new Audio('audio/23. OK_Button_Variation.wav');
+const death_sfx = new Audio('audio/Reject Sound.wav');
 music_icon.addEventListener('click', function() {
 
   if (playing_audio == false) 
@@ -654,7 +654,7 @@ music_icon.addEventListener('click', function() {
     first_audio_click = true;
 
     if (first_audio_click == true) {
-      audioLoader.load( '/audio/You Know Me - Jeremy Black.mp3', function( buffer ) {
+      audioLoader.load( 'audio/You Know Me - Jeremy Black.mp3', function( buffer ) {
       sound.setBuffer( buffer );
       sound.setLoop( true );
       sound.setVolume( 0.5 );
